@@ -1,5 +1,44 @@
 body {
+    background-image: linear-gradient(#367fff, #c936ff);
+    overflow: hidden;
+    align-content: center;
+    text-align: center;
+}
 
+@media (prefers-color-scheme: dark) {
+    form {
+        background-color: #00000030;
+        padding: 50px;
+        border-radius: 30px;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    form {
+        background-color: #ffffff30;
+        padding: 50px;
+        border-radius: 30px;
+    }
+}
+
+input {
+    border: none;
+    border-radius: 15px;
+    background-color: #00000030;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.submit {
+    background-color: #8eb8ff;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #e395ff;
 }
 
 .hidden {
