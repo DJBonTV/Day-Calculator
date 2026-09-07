@@ -4,13 +4,14 @@
 </head>
 <script src="datecal.js"></script>
 <body>
+    <h1>Day Calculator</h1>
     <form onsubmit="return false;">
-        <input title="day" type="text" id="day">
-        <input title="month" type="text" id="month">
-        <input title="year" type="text" id="year">
+        <input title="day" type="text" id="day" onfocus="HideDate()">
+        <input title="month" type="text" id="month" onfocus="HideDate()">
+        <input title="year" type="text" id="year" onfocus="HideDate()">
         <br>
         <br>
-        <input class="submit" title="submit" type="submit" onclick="DateCal()">
+        <input class="submit" title="submit" type="submit" onclick="DateVal()">
     </form>
-    <h2 class="hidden" id="solution">Monday</h2>
+    <h2 class="hidden" id="solution">Enter a date :D</h2>
 </body>
